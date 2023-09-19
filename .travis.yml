@@ -1,25 +1,30 @@
 language: node_js
 
-osx_image: xcode14.2
 # osx backlog is often deep, so to be polite we can just hit these highlights
 matrix:
   include:
   - os: osx
+    osx_image: xcode14.2
     env: ESLINT_VERSION=5
     node_js: 14
   - os: osx
+    osx_image: xcode14.2
     env: ESLINT_VERSION=5
     node_js: 12
   - os: osx
+    osx_image: xcode14.2
     env: ESLINT_VERSION=5
     node_js: 10
   - os: osx
+    osx_image: xcode14.2
     env: ESLINT_VERSION=4
     node_js: 8
   - os: osx
+    osx_image: xcode14.2
     env: ESLINT_VERSION=3
     node_js: 6
   - os: osx
+    osx_image: xcode14.2
     env: ESLINT_VERSION=2
     node_js: 4
 
